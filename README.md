@@ -1,2 +1,2 @@
 # Escooter_ITSC
-Submission to ITSC'24
+Submission to IEEE ITSC'24

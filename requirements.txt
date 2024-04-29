@@ -1,0 +1,11 @@
+pandas
+opencv-python
+moviepy
+openpyxl
+folium
+jupyter
+ultralytics
+torchsummary
+librosa
+matplotlib
+ultralytics
