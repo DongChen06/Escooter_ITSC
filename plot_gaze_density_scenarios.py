@@ -6,31 +6,31 @@ import matplotlib.pyplot as plt
 plt.rcParams["font.family"] = "Times New Roman"
 
 df_bike2crosswalk = pd.read_excel(
-    'whole_excel/bike2crosswalk.xlsx', engine='openpyxl',
+    'Whole_excels/bike2crosswalk.xlsx', engine='openpyxl',
     usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_downhill = pd.read_excel('whole_excel/downhill.xlsx', engine='openpyxl',
+df_downhill = pd.read_excel('Whole_excels/downhill.xlsx', engine='openpyxl',
                             usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_intersection = pd.read_excel('whole_excel/intersection.xlsx', engine='openpyxl',
+df_intersection = pd.read_excel('Whole_excels/intersection.xlsx', engine='openpyxl',
                                 usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_road_fixtures = pd.read_excel('whole_excel/road_fixtures.xlsx', engine='openpyxl',
+df_road_fixtures = pd.read_excel('Whole_excels/road_fixtures.xlsx', engine='openpyxl',
                                  usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_road2bikelane = pd.read_excel('whole_excel/road2bikelane.xlsx', engine='openpyxl',
+df_road2bikelane = pd.read_excel('Whole_excels/road2bikelane.xlsx', engine='openpyxl',
                                  usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_close_proximity = pd.read_excel('whole_excel/close_proximity.xlsx', engine='openpyxl',
+df_close_proximity = pd.read_excel('Whole_excels/close_proximity.xlsx', engine='openpyxl',
     usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_occupied_crosswalk = pd.read_excel('whole_excel/occupied_crosswalk.xlsx', engine='openpyxl',
+df_occupied_crosswalk = pd.read_excel('Whole_excels/occupied_crosswalk.xlsx', engine='openpyxl',
     usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_passing_bus = pd.read_excel('whole_excel/passing_bus.xlsx', engine='openpyxl',
+df_passing_bus = pd.read_excel('Whole_excels/passing_bus.xlsx', engine='openpyxl',
                                usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
-df_passing_pedestrian = pd.read_excel('whole_excel/passing_pedestrian.xlsx', engine='openpyxl',
+df_passing_pedestrian = pd.read_excel('Whole_excels/passing_pedestrian.xlsx', engine='openpyxl',
     usecols=['Gaze point X [MCS px]', 'Gaze point Y [MCS px]'])
 
 dfs = [df_bike2crosswalk.dropna(), df_intersection.dropna(), df_occupied_crosswalk.dropna(),

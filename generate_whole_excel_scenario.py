@@ -16,7 +16,7 @@ def is_time_in_range(start_us, end_us, time):
 combined_df = pd.DataFrame()
 
 # Function to filter a DataFrame based on time ranges and append results to the combined DataFrame
-scenario = 'passing_bus'  # bike2crosswalk, downhill, intersection, road_fixtures,
+scenario = 'bike2crosswalk'  # bike2crosswalk, downhill, intersection, road_fixtures,
                             # road2bikelane, close_proximity, occupied_crosswalk, passing_bus, passing_pedestrian
 
 
@@ -419,7 +419,6 @@ if scenario == 'road2bikelane':
     combined_df = filter_and_combine(df1, time_ranges1, combined_df)
     combined_df = filter_and_combine(df3, time_ranges3, combined_df)
     combined_df = filter_and_combine(df4, time_ranges4, combined_df)
-    combined_df = filter_and_combine(df5, time_ranges5, combined_df)
 
     combined_df = filter_and_combine(df1_arman, mar_11_arman, combined_df)
     combined_df = filter_and_combine(df2_arman, mar_13_arman, combined_df)

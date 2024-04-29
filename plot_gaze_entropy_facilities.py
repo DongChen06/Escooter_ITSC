@@ -47,7 +47,7 @@ axs1[1].set_ylabel('Gaze transition entropy', fontsize=font_size)
 axs1[1].set_xticklabels(labels, rotation=degree, ha="center", fontsize=font_size)
 axs1[1].set_xticks(range(len(labels)))
 axs1[1].set_xlabel('')
-save_and_show_figure(fig1, 'gaze_entropy_metrics_arman')
+save_and_show_figure(fig1, 'Gaze_entropy_facilities/gaze_entropy_metrics')
 
 # Gaze Variability X and Gaze Variability Y
 fig2, axs2 = plt.subplots(2, 1, figsize=(8, 6))  # 2 rows, 1 column
@@ -62,7 +62,7 @@ axs2[1].set_ylabel('Gaze variability Y', fontsize=font_size)
 axs2[1].set_xticklabels(labels, rotation=degree, ha="center", fontsize=font_size)
 axs2[1].set_xticks(range(len(labels)))
 axs2[1].set_xlabel('')
-save_and_show_figure(fig2, 'gaze_variability_metrics_arman')
+save_and_show_figure(fig2, 'Gaze_entropy_facilities/gaze_variability_metrics')
 
 # Third Figure: PRC
 fig3, ax3 = plt.subplots(figsize=(8, 3))
@@ -72,7 +72,7 @@ ax3.set_ylabel('Percentage of road center', fontsize=font_size)
 ax3.set_xticklabels(labels, rotation=degree, ha="center", fontsize=font_size)
 ax3.set_xticks(range(len(labels)))
 ax3.set_xlabel('')
-save_and_show_figure(fig3, 'prc_metric_arman')
+save_and_show_figure(fig3, 'Gaze_entropy_facilities/prc_metric')
 
 # Fixation length and frequency
 fig4, axs4 = plt.subplots(2, 1, figsize=(8, 6))
@@ -87,4 +87,4 @@ axs4[1].set_ylabel('Fixations per second', fontsize=font_size)
 axs4[1].set_xticklabels(labels, rotation=degree, ha="center", fontsize=font_size)
 axs4[1].set_xticks(range(len(labels)))
 axs4[1].set_xlabel('')
-save_and_show_figure(fig4, 'fixation_metrics_arman')
+save_and_show_figure(fig4, 'Gaze_entropy_facilities/fixation_metrics')
