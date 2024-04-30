@@ -10,6 +10,13 @@ This repo contains the codes for our submission to IEEE ITSC'24: **Impact of Dif
 1. propocess the gaze data via: `python generate_whole_excel_facilities.py`
 2. plot the gaze density map via: `python plot_gaze_density_facilities.py`
 
+
+## Gaze Entropy
+1. propocess the gaze data via: `python generate_traffic_scenarios.py`
+2. calculate the entropy: `python calculate_entropy.py`
+3. plot the gaze density map via: `python plot_gaze_entropy_facilities.py`
+4. calculate the statistics: `python gaze_statistics.py`
+
 Fixation Metrics:
 <table>
 <tr>
